@@ -1,0 +1,40 @@
+html {
+    background-color: aqua;
+}
+
+body {
+    font-family: Georgia;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'comic sans ms';
+    font-size: 60px;
+    color: darkblue;
+}
+
+h4 {
+    text-align: right;
+    font-style: italic;
+}
+
+h3 {
+    a {
+        color: white;
+    }
+}
+
+#aa {
+    text-align: center;
+    color: burlywood;
+}
+
+#bb {
+    a {
+        color: blueviolet;
+    }
+}
