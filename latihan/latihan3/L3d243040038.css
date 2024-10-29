@@ -1,5 +1,5 @@
 html {
-    background-image: url("background.png");
+    background-image: url(background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -14,6 +14,7 @@ h1 {
     font-family: Comic Sans MS;
     font-size: 60px;
     color: darkblue;
+    text-align: center;
 }
 
 h4 {
@@ -21,31 +22,33 @@ h4 {
     font-style: italic;
 }
 
-.V {
-    color: rgb(95, 8, 8);
+h3 {
+    a {
+        color: red;
+        text-decoration-thickness: 1px;
+    }
 }
 
-.R {
-    color: salmon;
+#aa {
+    color: orange;
     text-align: center;
 }
 
-p {
+#bb {
     text-align: right;
 }
 
-h1 {
-    text-align: center;
+p a:hover {
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.V:hover {
-    color: red;
-}
-
-a:hover {
-    color: rgb(143, 109, 255);
+#s {
+    font-weight: bold;
+    text-decoration: none;
 }
 
 h3 {
     text-align: center;
+    font-size: larger;
 }

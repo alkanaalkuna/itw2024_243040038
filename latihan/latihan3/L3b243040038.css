@@ -25,16 +25,15 @@ h4 {
 h3 {
     a {
         color: white;
+        text-decoration-thickness: 1px;
     }
 }
 
 #aa {
     text-align: center;
-    color: burlywood;
+    color: orange;
 }
 
 #bb {
-    a {
-        color: blueviolet;
-    }
+    text-align: right;
 }
