@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safa's Bakery Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" class="href">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="headling">Safa's Bakery Shop</h2>
+                <p class="sub-heading">Cake & Pastry</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 35k</h4>
+                <p class="item">Cheese Cake</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 32k</h4>
+                <p class="item">Cake</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="chckbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Safa's Bakery Shop</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">💻</div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deleniti facere ipsam cumque porro odio?</p>
+            </div>
+            <div class="service">
+                <div class="icon">🛒</div>
+                <h3>Belanja</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deleniti facere ipsam cumque porro odio?</p>
+            </div>
+            <div class="service">
+                <div class="icon">‼</div>
+                <h3>Promo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deleniti facere ipsam cumque porro odio?</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/fg1.jpg" alt="">
+            <img src="img/fg2.jpg" alt="">
+            <img src="img/fg3.jpg" alt="">
+            <img src="img/fg4.jpg" alt="">
+            <img src="img/fg5.jpg" alt="">
+            <img src="img/fg6.jpg" alt="">
+            <img src="img/fg7.jpg" alt="">
+            <img src="img/fg8.jpg" alt="">
+            <img src="img/fg9.jpg" alt="">
+            <img src="img/fg10.jpg" alt="">
+            <img src="img/fg11.jpg" alt="">
+            <img src="img/fg12.jpg" alt="">
+            <img src="img/fg13.jpg" alt="">
+        </section>
+
+    </div>
+    <script>
+        const menuToggle = document.suerySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+</body>
+
+</html>
